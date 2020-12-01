@@ -1,0 +1,218 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24 nov. 2020, 13:10:58
+    Author     : jesus
+*/
+
+.Container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+    -webkit-box-shadow: 1px 5px 14px 7px rgba(186,186,186,1);
+    -moz-box-shadow: 1px 5px 14px 7px rgba(186,186,186,1);
+    box-shadow: 1px 5px 14px 7px rgba(186,186,186,1);
+}
+
+.main-container{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.main-container>h3{
+    display: flex;
+    justify-content: center;
+    color: #3ab19b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+/* Tipo de usuario accesado*/
+.page-user > article{
+    width: 25%;
+    height: 60px;
+    margin-left: 15%;
+    background-color: #ffC107;
+    border-radius: 20px 20px 20px 0px ;
+    padding: auto;
+
+    -webkit-box-shadow: -5px 8px 5px 0px rgba(219,219,219,1);
+    -moz-box-shadow: -5px 8px 5px 0px rgba(219,219,219,1);
+    box-shadow: -5px 8px 5px 0px rgba(219,219,219,1);
+}
+
+.page-user .user{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+} 
+
+.user .welcom-text{
+    color: white;
+}
+
+.user .user-text{
+    color: #5a1087;
+}
+
+/* Menu desplegable*/
+
+.header{
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav > ul{
+    list-style: none;
+}
+
+.nav li a{
+    background-color: #3ab19b;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    margin-left: 60px; 
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 120px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+/* Contenido principal */
+.main{
+    margin: auto;
+    width: 100%;
+}
+
+/*Prueba*/
+
+
+.info1{
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgba(255, 255, 255, .4); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cuadronombre{
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    padding: 5px 25px;
+    width: 80%;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background: #F7BB24;
+    box-shadow: 2px 2px 5px #999;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.estado{
+    background-color: #f5f9f9;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 15px;
+    margin-top: 4%;
+    width: 40%;
+
+    -webkit-box-shadow: -5px 8px 5px 0px rgba(219,219,219,1);
+    -moz-box-shadow: -5px 8px 5px 0px rgba(219,219,219,1);
+    box-shadow: -5px 8px 5px 0px rgba(219,219,219,1);
+}
+
+.estado-importante{
+    color: #3ab19b;
+    text-align: center;
+}
+
+.ultimo{
+    display: flex;
+    justify-content: center;
+}
+
+.asignar-pacientes{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    margin-top: 5%;
+    -webkit-box-shadow: 1px 5px 14px 7px rgba(186,186,186,1);
+    -moz-box-shadow: 1px 5px 14px 7px rgba(186,186,186,1);
+    box-shadow: 1px 5px 14px 7px rgba(186,186,186,1);
+}
+
+.asignar-pacientes > section > label{
+    font-family: 'Roboto', sans-serif;
+    width: 100px;
+}
+
+.asignar-pacientes > section > input{
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    background-color: #f5f9f9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border: none;
+} 
+
+.one-asignar {
+    margin: auto;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.two-asignar {
+    margin: auto;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+titulo{
+    grid-column: 1/2;
+    grid-row: 1;
+    color: #3ab19b;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4%;
+}
+
+
+.button-asignar{
+    background-color: #3ab19b;
+    color: white;
+    width: 200px;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    margin-left: 70%;
+    margin-top: 10px;
+    grid-column: 2;
+    grid-row: 3;
+}
+

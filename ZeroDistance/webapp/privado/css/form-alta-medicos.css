@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 nov. 2020, 23:47:20
+    Author     : jesus
+*/
+
+.alta-medicos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin-top: 8%;
+}
+
+.alta-medicos > section > label{
+  font-family: 'Roboto', sans-serif;
+  width: 100px;
+}
+
+.alta-medicos> section > input{
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    background-color: #f5f9f9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border: none;
+} 
+
+.one {
+    margin: auto;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .two { 
+    margin: auto;
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .three {
+    margin: auto;
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .four {
+    margin: auto;
+    grid-column: 1;
+    grid-row: 4;
+  }
+  .five {
+    margin: auto;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .six {
+    margin: auto;
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .seven {
+    margin: auto;
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .eight {
+    margin: auto;
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  .button{
+    background-color: #3ab19b;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    margin-left: 100px;
+    margin-top: 10px;
+    grid-column: 2;
+    grid-row: 5;
+  }
+

@@ -1,0 +1,144 @@
+body{
+    height: 100%;
+    margin: auto;
+}
+
+.content{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: auto;
+    margin-top: 10%;
+
+    -webkit-box-shadow: -5px 8px 5px 0px rgba(219,219,219,1);
+    -moz-box-shadow: -5px 8px 5px 0px rgba(219,219,219,1);
+    box-shadow: -5px 8px 5px 0px rgba(219,219,219,1);
+}
+
+
+
+.content > .two{
+    background-color: #3ab19b;
+}
+
+.one > section{
+    
+    padding: 1em;
+}
+
+.item-title{
+    display: flex;
+    justify-content: center;
+}
+
+.item-title > h1{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #3ab19b;
+    margin-bottom: 5%;
+}
+
+.item-boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-boxes > input{
+    
+    width: 70%;
+    height: 40px;
+    margin: 5px;
+    background-color: #f5f9f9;
+    font-family: FontAwesome, 'Roboto', sans-serif;
+    font-size: 14px;
+    border: none;
+}
+
+.item-forgot{
+    display: flex;
+    justify-content: center;
+}
+
+.item-forgot > a{
+    color: #8b8d8d;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.item-button{
+    display: flex;
+    justify-content: center;
+
+}  
+
+.item-button > input{
+
+    background-color: #3ab19b;
+    color: white;
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: none;
+    border-radius: 60px;
+}
+
+.item-title-create{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.item-title-create> h1{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color:white;
+    margin-bottom: 2%;
+    margin-top: 18%;
+}
+
+.item-title-create{
+    display: flex;
+    justify-content: center;
+}
+
+.item-paragraph{
+    display: flex;
+    justify-content: center;
+}
+
+.item-paragraph > p{
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+}
+
+.item-button-create{
+    display: flex;
+    justify-content: center;
+}
+
+.item-button-create > input{
+    background-color:#3ab19b;
+    color: white;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-color: white;
+    border-radius: 60px;
+    margin: 5%;
+}
+
+.efecto:hover{
+    background-color: #ffffff;
+}

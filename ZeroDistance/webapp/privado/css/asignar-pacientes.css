@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 nov. 2020, 0:56:38
+    Author     : jesus
+*/
+
+.asignar-pacientes{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin-top: 5%;
+}
+
+.asignar-pacientes > section > label{
+  font-family: 'Roboto', sans-serif;
+  width: 100px;
+}
+
+.asignar-pacientes > section > input{
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    background-color: #f5f9f9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border: none;
+} 
+
+.one-asignar {
+  margin: auto;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.two-asignar {
+  margin: auto;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+
+.button-asignar{
+  background-color: #3ab19b;
+  color: white;
+  width: 200px;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  margin-left: 70%;
+  margin-top: 10px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
